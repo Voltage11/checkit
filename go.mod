@@ -2,7 +2,10 @@ module checkit
 
 go 1.25.5
 
-require github.com/ilyakaznacheev/cleanenv v1.5.0
+require (
+	github.com/ilyakaznacheev/cleanenv v1.5.0
+	golang.org/x/crypto v0.48.0
+)
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
